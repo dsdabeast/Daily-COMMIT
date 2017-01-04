@@ -1,0 +1,1 @@
+if(window.location ! == "http:localhost: 1498T")
