@@ -2,6 +2,13 @@ if (window.location.hostname === '127.0.0.1') {
     window.location = 'http://localhost:1898';
 }
 
+var auth2;
+
+function appstart() {
+    console.log('DIe');
+}
+
+
 function onSignIn(googleUser) {
     // Useful data for your client-side scripts:
     var profile = googleUser.getBasicProfile();
